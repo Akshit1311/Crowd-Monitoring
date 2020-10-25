@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vanta  -->
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/vendor/three.r119.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/dist/vanta.waves.min.js"></script>
+  </head>
+
+  <body>
+    <section id="landing">
+      <div class="content">
+        <h1>
+          Multi Purpose<br />
+          Crowd Monitoring
+        </h1>
+        <a href="dashboard.html" class="get-btn-link">
+          <button class="get-btn">Get Started</button>
+        </a>
+      </div>
+    </section>
+    <!-- <h1>Multi Purpose Crowd Monitoring</h1> -->
+  </body>
+
+  <script>
+    VANTA.WAVES({
+      el: "#landing",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: 0x0,
+    });
+  </script>
+</html>

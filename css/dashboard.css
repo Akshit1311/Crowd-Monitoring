@@ -1,0 +1,64 @@
+.nav-b {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: transparent;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.nav-b a {
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.nav-b a:hover {
+  color: white;
+  opacity: 60%;
+  text-decoration: none;
+}
+
+.dashboard {
+  padding-top: 8rem;
+  height: 100vh;
+  /* background: red; */
+}
+
+#myChart {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* Cards */
+.place-card {
+  background: rgb(27, 26, 26);
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+
+.desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prog-bar {
+  height: 2px;
+  width: 100%;
+  background: black;
+}
+
+.prog {
+  height: 2px;
+  box-shadow: 1px 1px 30px 1px orange;
+  width: 85%;
+  background: orange;
+  z-index: 2;
+}

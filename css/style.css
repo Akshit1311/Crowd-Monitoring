@@ -1,0 +1,57 @@
+/* body {
+  background: rgb(28, 31, 46);
+
+  color: orange;
+  font-family: sans-serif;
+  text-shadow: 0 0 10px orange, 0 0 20px orange;
+} */
+* {
+  margin: 0;
+}
+
+#landing {
+  height: 100vh;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.575)),
+    url("./bg.jpg");
+  background-size: cover;
+  background-position: center; */
+}
+
+h1 {
+  font-family: "Krona One", sans-serif;
+  color: rgb(211, 207, 207);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.get-btn {
+  padding: 0.75rem 2rem;
+  margin: 2rem auto;
+  display: block;
+  background: transparent;
+  color: rgb(211, 207, 207);
+  font-size: 1.75rem;
+  border: 0.2rem solid rgb(211, 207, 207);
+  cursor: pointer;
+}
+
+.get-btn:hover {
+  background: rgb(211, 207, 207);
+  color: black;
+  opacity: 80%;
+}
+
+.get-btn-link {
+  text-decoration: none;
+}
+
+.vanta-canvas {
+  position: fixed !important;
+}
