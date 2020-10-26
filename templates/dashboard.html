@@ -6,8 +6,8 @@
     <title>Document</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/dashboard.css" />
+    <link rel="stylesheet" href="{{ url_for("static", filename = "css/style.css") }}" />
+    <link rel="stylesheet" href="{{ url_for("static", filename = "css/dashboard.css") }}" />
 
     <!-- Google Fonts -->
     <link
@@ -48,7 +48,7 @@
 
   <body>
     <div class="nav-b">
-      <a href="index.html">Home</a>
+      <a href="/">Home</a>
       <a href="">Help</a>
     </div>
     <section id="landing">
@@ -138,7 +138,7 @@
     <!-- <h1>Multi Purpose Crowd Monitoring</h1> -->
   </body>
 
-  <script src="./js/genChart.js"></script>
+  <script src="{{ url_for("static", filename = "js/genChart.js") }}"></script>
 
   <script>
     VANTA.WAVES({

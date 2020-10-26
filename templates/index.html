@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="{{ url_for("static", filename =
+    "css/style.css") }}" />
 
     <!-- Google Fonts -->
     <link
@@ -25,7 +26,7 @@
           Multi Purpose<br />
           Crowd Monitoring
         </h1>
-        <a href="dashboard.html" class="get-btn-link">
+        <a href="/dashboard" class="get-btn-link">
           <button class="get-btn">Get Started</button>
         </a>
       </div>
