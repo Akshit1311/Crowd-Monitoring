@@ -55,10 +55,35 @@
   background: black;
 }
 
+#prog1 {
+  width: 85%;
+}
+
+#prog2 {
+  width: 44%;
+}
+
+
+#prog-floor-4 {
+  width: 27%;
+}
+
+#prog-floor-3 {
+  width: 34%;
+}
+
+#prog-floor-2 {
+  width: 49%;
+}
+
+#prog-floor-1 {
+  width: 65%;
+ }
+
+
 .prog {
   height: 2px;
   box-shadow: 1px 1px 30px 1px orange;
-  width: 85%;
   background: orange;
   z-index: 2;
 }
